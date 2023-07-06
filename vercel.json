@@ -7,8 +7,10 @@
       }
     ],
     "routes": [
-      { "handle": "filesystem" },
-      { "src": "/(.*)", "dest": "flask_server.py" }
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
     ]
   }
   
