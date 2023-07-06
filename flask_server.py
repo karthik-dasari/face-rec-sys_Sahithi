@@ -146,4 +146,5 @@ def hello_world():
 
 # Run in HTTP
 # When debug = True, code is reloaded on the fly while saved
-app.run(host='0.0.0.0', port='5001', debug=True)
+if __name__ == '__main__':
+    app.run(debug=False)
